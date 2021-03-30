@@ -1,0 +1,169 @@
+{"Server IP": "116.203.27.46",
+ "Port": "5002",
+ "Postman":[{"endpoint": "age_europe",
+            "method": "POST",
+            "body_params": "age: int",
+            "age_class":["0-17", "18-50", "50-100"],
+            "task": "Create equivalence classes and boundary values tests"}
+            {"endpoint": "age_usa",
+            "method": "POST",
+            "body_params": "age: int",
+            "age_class":["0-20", "21-50", "50-100"],
+            "task": "Create equivalence classes and boundary values tests"}],
+
+  "GitHub_task":"Commit your Postman tests to your repository",
+  "Theoretic_task": "Write about SDLC"
+}
+
+pm.test("age_is_0" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "0",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+pm.test("age_is_1" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "1",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+pm.test("age_is_17" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "17",
+    "age_type": "underage",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)"
+    ]
+}
+
+pm.test("age_is_18" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "18",
+    "age_type": "adult",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)",
+        "The Matrix 4 (2021)",
+        "Ghostbusters: Afterlife (2021)",
+        "Chaos Walking (2021)",
+        "Eternals (2021)",
+        "Godzilla vs. Kong (2021)",
+        "The Tomorrow War (2021)",
+        "Venom: Let There Be Carnage (2021)",
+        "Black Widow (2021)",
+        "Dune (2021)"
+    ]
+}
+
+pm.test("age_is_49" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "49",
+    "age_type": "adult",
+    "content": [
+        "Tom & Jerry (Feb. 26)",
+        "Raya and the Last Dragon (Mar. 5)",
+        "Peter Rabbit 2: The Runaway (April 2)",
+        "Rumble (May 14)",
+        "Minions: The Rise of Gru (July 2)",
+        "Space Jam 2: A New Legacy (July 16)",
+        "The Addams Family 2 (Oct. 8)",
+        "Encanto (Nov. 24)",
+        "The Matrix 4 (2021)",
+        "Ghostbusters: Afterlife (2021)",
+        "Chaos Walking (2021)",
+        "Eternals (2021)",
+        "Godzilla vs. Kong (2021)",
+        "The Tomorrow War (2021)",
+        "Venom: Let There Be Carnage (2021)",
+        "Black Widow (2021)",
+        "Dune (2021)"
+    ]
+}
+
+
+pm.test("age_is_50" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "50",
+    "age_type": "antiquity",
+    "content": [
+        "An American Pickle",
+        "The Lovebirds",
+        "Bill & Ted Face The Music",
+        "The Personal History Of David Copperfield",
+        "Emma",
+        "Happiest Season",
+        "Spontaneous",
+        "Palm Springs"
+    ]
+}
+
+pm.test("age_is_99" , function () {
+var jsonData = pm.response.json ();
+var req_data = request.data});
+
+{
+    "age": "99",
+    "age_type": "antiquity",
+    "content": [
+        "An American Pickle",
+        "The Lovebirds",
+        "Bill & Ted Face The Music",
+        "The Personal History Of David Copperfield",
+        "Emma",
+        "Happiest Season",
+        "Spontaneous",
+        "Palm Springs"
+    ]
+}
+
